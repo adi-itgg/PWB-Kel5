@@ -261,6 +261,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.5s;
+    opacity: 0;
 }
 
 .owl-prev {
@@ -760,6 +761,7 @@
 .team .team-item .team-img {
     position: relative;
     overflow: hidden;
+    max-height: 290px;
 }
 
 .team .team-item .team-img::after {
